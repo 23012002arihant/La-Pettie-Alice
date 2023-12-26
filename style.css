@@ -1,0 +1,80 @@
+body{margin:0px;}
+
+
+
+.navbar{background-color:#ece5dc;
+border-radius:30px;
+font-family: 'Frank Ruhl Libre', serif;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+color:black;}
+
+.navbar ul{overflow:auto;
+           margin:0px;
+		   padding:0px;
+		   }
+
+.navbar li{
+           list-style:none;
+		   margin:13px 20px;
+		   padding:3px 2px;
+		   
+		   float:left;
+		   }
+
+.navbar li a{
+             text-decoration:none;
+			 color:#392E24;
+			 }
+
+.search{display:inline-block;}
+
+img{display:inline-block;}
+
+body > header > nav > ul > li.ss23{margin-right:0px;}
+
+body > header > nav > ul > li.new{margin-left:0px;}			 
+		 
+body > header > nav > ul > li.new > a:nth-child(1){padding:0px;}		 
+
+body > header > nav > ul > a:nth-child(8) > li{margin-bottom:0px;
+margin-top:5px;}
+
+.center img{width:100%;
+            height:100vh;
+			background-size:cover;
+background-position:center;}		 
+
+.navbar li a:hover{color:#FFFFFF;
+                   transition:all 0.4s ease 0s;}
+
+body > header > nav > ul > li:nth-child(14) > a > img{padding-left:10px;}				   
+				   
+body > header > nav > ul > li:nth-child(15) > a > img{padding-left:10px;}				   
+
+body > header > nav > ul > li:nth-child(13) > a{background-color:#bb7460;
+                                                  border-radius:10px;
+												  border-style:solid;
+												  padding:2px;}
+												  
+.center-text{color:red;
+             position:absolute;
+			 top:50%;
+			 widows:100%;
+text-align:center;
+padding-left:600px;
+font-size:30px;
+color:green;}
+												  
+												  
+.banner img{max-width:100%;
+            height:auto;}  	
+
+.banner-text{position:absolute;
+             top:25%;
+			 color:green;
+			 font-size:30px;
+             padding:100px;}			 
