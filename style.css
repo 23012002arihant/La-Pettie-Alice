@@ -1,9 +1,4 @@
-body{margin:0px;}
-
-
-
-.navbar{background-color:#ece5dc;
-border-radius:30px;
+body{margin:0px;
 font-family: 'Frank Ruhl Libre', serif;
 font-family: 'IBM Plex Serif', serif;
 font-family: 'Kalam', cursive;
@@ -12,9 +7,16 @@ font-family: 'Libre Baskerville', serif;
 font-family: 'Open Sans', sans-serif;
 color:black;}
 
+
+
+.navbar{background-color:#ece5dc;
+border-radius:30px;
+}
+
 .navbar ul{overflow:auto;
            margin:0px;
 		   padding:0px;
+		   font-weight:bolder;
 		   }
 
 .navbar li{
@@ -27,7 +29,7 @@ color:black;}
 
 .navbar li a{
              text-decoration:none;
-			 color:#392E24;
+			 color:black;
 			 }
 
 .search{display:inline-block;}
@@ -48,26 +50,25 @@ margin-top:5px;}
 			background-size:cover;
 background-position:center;}		 
 
-.navbar li a:hover{color:#FFFFFF;
+.navbar li a:hover{color:#fff;
                    transition:all 0.4s ease 0s;}
 
 body > header > nav > ul > li:nth-child(14) > a > img{padding-left:10px;}				   
 				   
 body > header > nav > ul > li:nth-child(15) > a > img{padding-left:10px;}				   
 
-body > header > nav > ul > li:nth-child(13) > a{background-color:#bb7460;
-                                                  border-radius:10px;
-												  border-style:solid;
+body > header > nav > ul > li:nth-child(13) > a{background-color:#9c27b0;;
+                                                border-radius:10px;
 												  padding:2px;}
 												  
-.center-text{color:red;
+.center-text{color:blue;
              position:absolute;
 			 top:50%;
 			 widows:100%;
 text-align:center;
 padding-left:600px;
 font-size:30px;
-color:green;}
+color:blue;}
 												  
 												  
 .banner img{max-width:100%;
@@ -75,6 +76,6 @@ color:green;}
 
 .banner-text{position:absolute;
              top:25%;
-			 color:green;
+			 color:blue;
 			 font-size:30px;
              padding:100px;}			 
