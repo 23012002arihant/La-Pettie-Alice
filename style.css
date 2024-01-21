@@ -67,7 +67,16 @@ body > header > nav > ul > li:nth-child(13) > a{background-color:#fafafa;
 			 widows:100%;
              text-align:center;
              padding-left:600px;
-             font-size:30px;
+              font-size:30px;
+}
+.center-text h1{border-radius:25px;
+                background-color:aliceblue;
+				opacity:0.8;}
+				
+.center-text p{border-radius:25px;
+                background-color:aliceblue;
+				opacity:0.8;}
+				
 }
 
 .index-p{font-weight:bolder;}
@@ -80,8 +89,12 @@ body > header > nav > ul > li:nth-child(13) > a{background-color:#fafafa;
 	         position:absolute;
              top:25%;
 			 color:blue;
+			 font-weight:bold;
 			 font-size:30px;
-             padding:100px;}			 
+             padding:100px;
+			 opacity: 0.5;
+    background-color: antiquewhite;
+    padding-right: 170px }			 
 
 .container{text-align:center;
            padding:29px;
