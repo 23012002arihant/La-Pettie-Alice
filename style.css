@@ -119,10 +119,12 @@ body > header > nav > ul > li:nth-child(13) > a{background-color:#fafafa;
       margin-bottom: 0px;
     margin-top: 0px;}	
 
-.btn{border-radius:5px;
+.btn{border-radius: 25px;
+    width: 100px;
+    height: 30px;
      border:0px;
 	 box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5);
-	 background-color:yellow;} 
+	 background-color:#00b300;} 
 	 
 .new-container{background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
@@ -208,7 +210,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,148,191,0.8
 			border:none;
               width:150px;
 			  height:50px;
-			  background-color:#ffff00;}
+			  background-color:#4681f4;}
 			  
 			  
 .new-account{text-decoration:none;}			  
@@ -217,3 +219,4 @@ input{background-color:#E1D9D1}
 
 .loyals-container{text-align:center;
                   padding:10px;}
+.forgot{font-weight:bold;}
