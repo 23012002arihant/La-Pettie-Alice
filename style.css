@@ -128,16 +128,27 @@ body > header > nav > ul > li:nth-child(13) > a{background-color:#fafafa;
 	 
 .new-container{background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-padding-bottom:370px;}	
+padding-bottom:370px;
+margin-right: 50px;
+    margin-left: 50px}	
 
 
 .white-div{padding-bottom:300px;}
 
+.white-div img{border: 10px solid white;}
+
 p.white-p{color:white;
-          margin-top: 0px;}
+          margin-top: 0px;
+		  margin-left: 80px;
+    margin-top: 0px;
+    padding-top: 50px;
+}
 		  
 .yellow-div p{color:white;
               flot:right;}
+			  
+.yellow-div img{border: 10px solid #f6f0f0;
+    height: 400px;}			  
 
 .white-shirt{float:right;}
 
