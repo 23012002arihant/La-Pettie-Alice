@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang=eng>
-<meta Charset=UTF-8>
 <head>
-<title>Loyals</title>
-<link rel=stylesheet href=style.css>
+<meta Charset=UTF-8>
+<title>Login</title>
+<link rel=stylesheet href=./style.css>
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +16,9 @@
 	<li><a href= ./Adults.html>Adults</a></li>
     <li><a href= ./index.html>Home</a></li>
     <li><a href= ./ready-made.html>Ready-made</a></li>  
-	<li><a href= ./summer-sensations.html>SS23|Summer Sensations</li>
-	<li><a href= ./new.html>NEW</li>
-	<li><img src=nav.jpg alt=img height=54px width=130px></li>
+	<li><a href= ./summer-sensations.html>SS23|Summer Sensations</a></li>
+	<li><a href= ./new.html>NEW</a></li>
+	<li><img src=nav.jpg alt=img height=54px width=130px/></li>
 	<li><a href= ./about.html>About</a></li>
 	<li><a href= ./wholesale.html>Wholesale</a></li>
 	<li><a href= ./gift-cards.html>Gift Cards</a></li>
@@ -36,19 +36,20 @@
  <div class=login><h1>Login</h1></div>
  <div class=email>
   <form>
- <lable>Email</lable>
-  <input class=usern type=email placeholder=your-email@gmail.com>
+ <label for=email>Email</lable>
+  <input type=email id=email placeholder=your-email@gmail.com>
   </form>
  </div>
  <div class=password>
   <form>
-  <label>Password</lable>
-  <input class=passw type=password placeholder=Password>
+  <label for=password>Password</lable>
+  <input type=password id=password placeholder=Password>
   </form>
  </div>
- <button class=login-btn onclick=validate()>LOGIN</button>
+ <button class=login-btn type=submit >LOGIN</button>
  <div class =forgot><a href=# class=new-account>Create account | Forgot password</a></div>
  </div>
  </div>
  <script src=./index.js></script>
 </body>
+</html> 
